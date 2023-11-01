@@ -92,7 +92,6 @@ fitStatCompare(fit_Config_GBthreat_EcoCris,fit_Metric_GBthreat_EcoCris,fit_Scala
 #local fit
 lavTestLRT(fit_Config_GBthreat_EcoCris,fit_Metric_GBthreat_EcoCris,fit_Scalar_GBthreat_EcoCris)
 
+#parameters causing the problem
 lavTestScore(fit_Scalar_GBthreat_EcoCris)
 parTable(fit_Scalar_GBthreat_EcoCris)
-
-
