@@ -101,6 +101,7 @@ fitStatCompare(fit_Config_SIthreat_PoliCris,fit_Metric_SIthreat_PoliCris,fit_Sca
 #Local fit:
 lavTestLRT(fit_Config_SIthreat_PoliCris, fit_Metric_SIthreat_PoliCris,fit_Scalar_SIthreat_PoliCris)
 
+#chi-square details
 lavTestScore(fit_Metric_SIthreat_PoliCris)
 parTable(fit_Metric_SIthreat_PoliCris)
 
